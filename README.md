@@ -21,6 +21,8 @@ This experiment implements a static admin dashboard using HTML, CSS Grid, and va
 ## How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<Harsh9955a>/admin-dashboard.git
+   git clone https://github.com/<perlgupta07-droidperlgupta07-droid
+>/admin-dashboard.git
    cd admin-dashboard
 "# admin-dashboard" 
+
