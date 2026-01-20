@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="app">
+  <header class="header">
+    <div class="logo">MyAdmin</div>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+      🌞
+    </button>
+  </header>
+
+  <aside class="sidebar">
+    <nav>
+      <a href="#" class="active">Dashboard</a>
+      <a href="#">Users</a>
+      <a href="#">Analytics</a>
+      <a href="#">Settings</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <section class="cards">
+      <div class="card">Total Users</div>
+      <div class="card">Revenue</div>
+      <div class="card">Active Sessions</div>
+      <div class="card">Errors</div>
+    </section>
+
+    <section class="grid-widgets">
+      <div class="widget widget--wide">Sales Chart</div>
+      <div class="widget">Top Countries</div>
+      <div class="widget">Recent Activity</div>
+      <div class="widget">Server Status</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © 2026 MyAdmin
+  </footer>
+
+  <script src="theme.js"></script>
+</body>
+</html>
